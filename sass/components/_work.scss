@@ -20,7 +20,7 @@
  .work-item{
     position: relative;
      margin-right: 30px;
-     &:nth-last-child(-n+1){
+     .work-item:nth-last-child(-n+1){
      margin-right: 0;
  }
  }

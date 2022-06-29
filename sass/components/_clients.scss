@@ -3,12 +3,12 @@
     padding-bottom: 94px;
 }
     
-.clients-list {
+.clients__list {
     display: flex;
      justify-content: center;
 }
 
-.clients-item {
+.clients__item {
 	margin-right: 30px;
     border: 1px;
     border-radius: 4px;
@@ -19,7 +19,7 @@
     
     }
     
-.clients-link {
+.clients__link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -38,6 +38,6 @@
     }
     
          
-.clients-icon {
+.clients__icon {
 	fill: currentColor;
     }
