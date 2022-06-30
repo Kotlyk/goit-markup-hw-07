@@ -3,13 +3,13 @@
      flex-wrap: wrap;
  }
 
- .project-thumb{
+ .project__thumb{
     position: relative;
     overflow: hidden;
     
  }
  
- .project-thumb-text{
+ .project__text{
     position: absolute;
     top: 0;
     margin: 0;
@@ -28,7 +28,7 @@
 }
  }
 
- .project-title {
+ .project__title {
      font-weight: 700;
      font-size: 18px;
      line-height: 2;
@@ -36,14 +36,14 @@
      color: var(--title-text-color);
  }
 
- .project-desc {
+ .project__desc {
      font-weight: 400;
      font-size: 16px;
      line-height: 2;
      margin: 4px 0 0 0;
  }
 
- .project-item {
+ .project__item {
     position: relative;
      background-color: #FFFFFF;
      width: 370px;
@@ -57,7 +57,7 @@
  }
  }
 
- .project-about {
+ .project__about {
      width: 370px;
      height: 110px;
      padding: 20px 24px;
@@ -65,21 +65,9 @@
 
  }
 
- .btn {
-     margin-bottom: 50px;
-
- }
-
- .btn-item {
-     margin-right: 8px;
-     &:nth-last-child(-n+1) {
-     margin-right: 0;
-    }
-
- }
 
 
- .project-img {
+ .project__img {
      display: block;
 
  }

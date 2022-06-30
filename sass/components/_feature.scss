@@ -3,7 +3,7 @@
    
 }
 
-.feature-item {
+.feature__item {
     margin-right: 30px;
         &::before {
         display: block;
@@ -33,7 +33,7 @@
 
 }
 
-.feature-subtitle {
+.feature__subtitle {
     margin-top: 0;
     margin-bottom: 10px;
     padding: 0;
@@ -44,7 +44,7 @@
     text-transform: uppercase;
 }
 
-.feature-text {
+.feature__text {
     max-width: 270px;
     margin: 0;
     padding: 0;

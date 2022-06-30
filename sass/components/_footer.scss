@@ -14,7 +14,7 @@ footer {
  }
  }
 
- .footer-item {
+ .footer__item {
      display: flex;
  }
 
@@ -30,7 +30,7 @@ footer {
      margin-bottom: 9px;
  }
 
-  .address-nav {
+  .address__nav {
      display: flex;
      flex-direction: column;
      .link {
@@ -49,7 +49,7 @@ footer {
     }
  }
 
- .mail {
+ .address__mail {
      margin-bottom: 9px;
  }
 
@@ -57,7 +57,7 @@ footer {
      margin-left: 70px;
  }
 
- .social-title {
+ .social__title {
      font-weight: 700;
      font-size: 14px;
      line-height: 1.14;
@@ -69,13 +69,13 @@ footer {
 
  }
 
- .soc-list {
+ .social__list {
      display: flex;
      justify-content: center;
 
  }
 
- .soc-item {
+ .social__item {
      width: 44px;
      height: 44px;
      margin-right: 10px;
@@ -84,7 +84,7 @@ footer {
  }
  }
 
- .cos-link {
+ .social__link {
      display: flex;
      align-items: center;
      justify-content: center;
@@ -99,7 +99,7 @@ footer {
  }
  }
 
- .cos-icon {
+ .social__icon {
      fill: rgba(255, 255, 255, 0.9);
  }
 
