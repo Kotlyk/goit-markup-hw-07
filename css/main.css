@@ -343,6 +343,9 @@ header .logo {
 .soc {
   display: flex;
   justify-content: center;
+}
+
+.soc-nam {
   margin-top: 16px;
 }
 
